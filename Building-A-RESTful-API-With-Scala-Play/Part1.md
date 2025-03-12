@@ -156,6 +156,6 @@ To add a new library dependency to your project, open up `build.sbt`
 
 3. Alter the tests so that they now pass.
 
-**Note: this isn't [Test-Driven Development](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~%27page~%27post~%27aa_book~%27aa_event_session~%27aa_experience_report~%27aa_glossary~%27aa_research_paper~%27aa_video)~tags~(~%27tdd))~searchTerm~%27~sort~false~sortDirection~%27asc~page~1))! Consider how you could have done the above tasks using a TDD approach.**
+**Note: this isn't [Test-Driven Development](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~%27page~%27post~%27aa_book~%27aa_event_session~%27aa_experience_report~%27aa_glossary~%27aa_research_paper~%27aa_video)~tags~(~%27tdd))! Consider how you could have done the above tasks using a TDD approach.**
 
 ## [Part 2](Part2.md)

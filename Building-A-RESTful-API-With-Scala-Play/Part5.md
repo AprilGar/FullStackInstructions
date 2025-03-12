@@ -198,7 +198,7 @@ we are going to use mocks to perform unit tests.
    * Note: You will have to inject the trait in all places where you injected the repository class, e.g. the service layer
    * This avoids having us to mock the `PlayMongoRepository` extension, our only concern is mocking the methods we made
 
-8. Use the html files in the `views` package to display at least one book from the Google Books API. Do this by
+8. Use the html files in the `views` package to display at least one book from the Google Books API. Do this by:
    * using the connector to retrieve the book by searching for the `isbn` in the url (you may have to change the structure of `dataModels`),
    * store the book in Mongo to show you have it
    * then display the book in your browser by returning the JSON of your book model
@@ -207,3 +207,5 @@ we are going to use mocks to perform unit tests.
 ## Conclusion
 
 Excellent, you've now created a RESTful API with CRUD functions, a connector to retrieve data from other APIs, unit tested them with MockFactory and learnt some useful CURL commands.
+
+## [Part 6](Part6.md)

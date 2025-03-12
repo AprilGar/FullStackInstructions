@@ -360,7 +360,7 @@ def create(): Action[JsValue] = Action.async(parse.json) { implicit request =>
 - Have a look in the documentation for the `JsSuccess` and `JsError` case classes to see what other properties they have. Hint: start [here](https://www.playframework.com/documentation/2.6.x/api/scala/play/api/libs/json/index.html)
 
 **How would check something is created in the database?**
-- Think about what is returned form `.create()` and how you can match on this similar to validating the request body
+- Think about what is returned from `.create()` and how you can match on this similar to validating the request body
 
 ### The Update Action
 See if you can apply what you've seen so far to the `update()` function and complete the code.

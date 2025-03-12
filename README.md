@@ -11,7 +11,7 @@ This tutorial walks you through the creation of an API that can store, retrieve 
 * git and GitHub
 * SBT
 * Mockito/MockFactory
-* CURL 
+* CURL (brief guide [here](https://developer.ibm.com/articles/what-is-curl-command/))
 * HTTP request methods and response statuses (brief guide [here](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177))
 
 Some of the sections are purposefully vague and get more challenging as you progress. This is intended - your peers, your Teams Academy channel, Stack Overflow, Google, GitHub, your notes and your trainer are all valuable resources! 
