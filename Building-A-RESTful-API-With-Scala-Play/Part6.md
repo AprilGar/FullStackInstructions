@@ -64,7 +64,7 @@ In your `views/main.scala.html` in the `<head>` tag add this line:
                 <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.versioned("/stylesheets/main.css")">
 ```
 The href is pointing to the routes file in `conf/routes` and the path `Assets.versioned(path="/public", file: Asset)` which we have given the path to the file we want `"/stylesheets/main.css"`.
-1. Add some css styling to your views page that is displaying your book.
+1. This is your time to be creative with styling! Add some css styling to your views page that is displaying your book.
 
 ## Submit a form
 
@@ -169,5 +169,10 @@ https://www.playframework.com/documentation/2.8.x/ScalaForms#Passing-MessagesPro
         On your FakeRequest look at adding .withCSRFToken for the CSRFToken and adding .withFormUrlEncodedBody("nameOf YourParameter" -> "name", ...) for the form data.
     </blockquote></details>
     </details>
-    
 
+## Make it your own
+This section will be left purposely vague so that you have the opportunity to expand this project as you see fit. Think about the product you currently have. 
+- Is it user-friendly? 
+- Is there anything currently lacking that would be good to have?
+- If functionality is missing, should this be front or back end? 
+- Does it need more front end design?
